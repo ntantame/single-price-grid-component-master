@@ -1,0 +1,134 @@
+body{
+    font-family: "Karla", sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+.container{
+    border: 1px solid black;
+    max-width: 375px;
+    width: 80%;
+    margin: 20% 10%;
+    border-radius: 10px;
+}
+.section1{
+    padding-top: 1em;
+    padding-left: 1em;
+    
+    max-width: 375px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+h2{
+    color: hsla(179, 62%, 43%, 0.773);
+    font-size: 1.2rem;
+}
+h3{
+    color: hsl(71, 73%, 54%);
+    font-size: 1rem;
+}
+p{
+    font-weight: bold;
+    color:  hsla(217, 22%, 67%, 0.793);
+    font-size: 0.9rem;
+}
+.section2{
+    
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.article1{
+    padding-top: 1em;
+    padding-left: 1em;
+    background-color: hsl(179, 62%, 43%);
+}
+.article1 h2{
+    text-transform: capitalize;
+   color:  hsl(204, 43%, 93%);
+   font-size: 1rem;
+}
+.prix{
+    font-weight: bold;
+    color:  hsla(203, 44%, 93%, 0.552);
+}
+span{
+    font-size: 2rem;
+    color:  hsl(204, 43%, 93%);
+}
+.article1 p{
+    color: hsl(204, 43%, 93%);
+}
+#MyButton{
+    margin-bottom: 1.5em;
+    margin-left: 1%;
+    text-align: center;
+    padding-left: 4.5em;
+    padding-right: 4.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: hsl(71, 73%, 54%);
+    border-radius: 10px;
+    border: none;
+    color: hsl(204, 43%, 93%);
+}
+.article2{
+    padding-top: 1em;
+    padding-left: 1em;
+    background-color:  hsla(179, 62%, 43%, 0.605);
+    padding-bottom: 0.8em;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.article2 h3{
+    text-transform: capitalize;
+    color:  hsl(204, 43%, 93%);
+    font-size: 1.2rem;
+}
+.article2 ul{
+    list-style: none;
+    color:  hsla(203, 44%, 93%, 0.623);
+    padding-left: 0.2em;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+@media screen and (min-width: 768px){
+    body{
+        font-size: 16px;
+    }
+    .container{
+        max-width: 1440px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .section1,.section2{
+        max-width: 1460px;
+        width: 100%;
+    }
+  .section  h2{
+        color: hsla(179, 62%, 43%, 0.773);
+        font-size: 2rem;
+    }
+    .section2{
+        display: flex;
+        flex-direction: row;
+    }
+    .article1,.article2{
+    
+        width: 50%;
+    }
+    .article2{
+        border-bottom-left-radius: 10px;
+
+    }
+    .article3{
+        border-bottom-right-radius: 10px;
+    }
+
+}
